@@ -17,7 +17,7 @@ def hello_spencer():
     f.close()
 
     return jsonify({
-        "message": "Hello SONNE",
+        "message": "Hello SONNE 2",
         "counter" : counter,
         "status": "success"
     })
