@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 
-# CI/CD Auto-Trigger Testt
+# CI/CD Auto-Trigger Testtt
 
 # Initialize Flask application
 app = Flask(__name__)
@@ -17,7 +17,7 @@ def hello_spencer():
     f.close()
 
     return jsonify({
-        "message": "Hello Spencer",
+        "message": "Hello SONNE",
         "counter" : counter,
         "status": "success"
     })
