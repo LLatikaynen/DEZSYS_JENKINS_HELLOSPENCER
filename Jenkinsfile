@@ -7,7 +7,7 @@ pipeline {
     }
     environment {
         APP_PORT = '5556'
-        GITHUB_REPO = 'github.com/LLatikaynen/DEZSYS_JENKINS_HELLOSPENCER'
+        GITHUB_REPO = 'https://github.com/LLatikaynen/DEZSYS_JENKINS_HELLOSPENCER.git'
     }
     stages {
         stage('Pre-Build Cleanup') {
