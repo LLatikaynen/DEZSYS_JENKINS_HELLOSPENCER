@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 
-# CI/CD Auto-Trigger Test
+# CI/CD Auto-Trigger Testt
 
 # Initialize Flask application
 app = Flask(__name__)
